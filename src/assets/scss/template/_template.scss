@@ -154,11 +154,26 @@ h1 {
     list-style: none;
     padding-left: 0;
     text-align: center;
-    margin: 0 auto;
    a li {
-display: inline-block;   
+display: inline-block;  
+margin: 0 auto;
+img.media {
+  max-width: 100px;
+  max-height: 100px;
+} 
 }
 }
+
+}
+
+//Specific Selectors 
+body > table > tbody > tr > td > center > table.container.float-center > tbody > tr > td > table:nth-child(2) > tbody > tr > th {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+body > table > tbody > tr > td > center > table.container.float-center > tbody > tr > td > table:nth-child(6) > tbody > tr > th {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 // body > table > tbody > tr > td > center > table.container.float-center > tbody > tr > td > table:nth-child(10) > tbody > tr > th > table > tbody > tr > th:nth-child(1) > a:nth-child(2) > img {
@@ -186,3 +201,4 @@ p {
   font-size: 8px;
   letter-spacing: 3px;
 }
+
