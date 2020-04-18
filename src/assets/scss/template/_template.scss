@@ -1,0 +1,188 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  margin: 0;
+  padding: 0;
+  background: #f3f3f3 !important;
+  color: #4c4d4f;
+  
+}
+ p {
+   text-align: center;
+   padding-top: 30px;
+   color: #4c4d4f;
+   letter-spacing: 3px;
+ }
+
+ 
+.header {
+  background: #fff;
+
+  img {
+    margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+.nav-list ul{
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  li {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+  color: #4c4d4f;
+  &:hover {
+    color: #e06297;
+  }
+  }
+}
+}
+
+body > table > tbody > tr > td > center > table.container.float-center > tbody > tr > td > table:nth-child(1) > tbody > tr > th > table > tbody > tr > th:nth-child(1) > nav > ul {
+  padding-left: 0;
+}
+.top-img {
+padding-bottom: 30px;
+width: 100%;
+}
+.btn-long {
+  width: 95%;
+  background: #f69779;
+  a  {
+    text-align: center;
+    border: 1px solid #fff;
+font-size: 10px;
+text-transform: uppercase;
+letter-spacing: 4px;
+color: #fff;
+margin-top: 10px;
+padding: 10px;
+    display: inline-block;
+    max-width: 50%;
+    &:hover {
+      background: #ecabab;
+    }
+}
+body > table > tbody > tr > td > center > table > tbody > tr > td > table:nth-child(3) > tbody > tr > th > table > tbody > tr > th:nth-child(1) > a {
+  text-align: center;
+  margin: 0 auto;
+}
+}
+body > table > tbody > tr > td > center > table > tbody > tr > td > table:nth-child(2) > tbody > tr > th {
+  padding-bottom: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.shop-essentials {
+  display: block;
+  padding-bottom: 30px;
+  h2 {
+    color: #4c4d4f;
+    font-size: 14px;
+    text-align: center; 
+    letter-spacing: 3px;
+    font-weight: 700;
+  }
+  p {
+    letter-spacing: 3px;
+  }
+  
+  a.btn-short {
+font-size: 14px;
+background: #f67979;
+color: #fff;
+margin-top: 10px;
+padding: 10px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 40%;
+    border-radius: 5px;
+    font-family: "Century Gothic", Arial;
+    &:hover {
+      background: #ecabab;
+    }
+}
+}
+body > table > tbody > tr > td > center > table > tbody > tr > td > table:nth-child(6) > tbody > tr > th {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+.lower-links ul {
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  li {
+    text-transform: uppercase;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    letter-spacing: 2px;
+  color: #4c4d4f;
+  &:hover {
+    color: #e06297;
+  }
+  }
+}
+body > table > tbody > tr > td > center > table > tbody > tr > td > table:nth-child(9) > tbody > tr > th > table > tbody > tr > th:nth-child(1) > ul {
+  padding-right: 40px;
+}
+
+h1 {
+    color: #4c4d4f;
+    text-align: center; 
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-transform: uppercase;
+    }
+.social-section {
+  ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto;
+   a li {
+display: inline-block;   
+}
+}
+}
+
+// body > table > tbody > tr > td > center > table.container.float-center > tbody > tr > td > table:nth-child(10) > tbody > tr > th > table > tbody > tr > th:nth-child(1) > a:nth-child(2) > img {
+//   display: inline-block;
+ 
+
+ 
+// }
+// body > table > tbody > tr > td > center > table.container.float-center > tbody > tr > td > table:nth-child(10) > tbody > tr > th > table > tbody > tr > th:nth-child(1) > a:nth-child(3) > img {
+//   display: inline-block;
+
+// }
+// body > table > tbody > tr > td > center > table.container.float-center > tbody > tr > td > table:nth-child(10) > tbody > tr > th > table > tbody > tr > th:nth-child(1) > a:nth-child(4) > img {
+//   display: inline-block;
+
+
+// }
+// body > table > tbody > tr > td > center > table.container.float-center > tbody > tr > td > table:nth-child(10) > tbody > tr > th > table > tbody > tr > th:nth-child(1) > a:nth-child(5) > img {
+//   display: inline-block;
+// }
+
+
+.footer 
+p {
+  font-size: 8px;
+  letter-spacing: 3px;
+}
